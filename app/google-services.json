@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493935168539",
+    "project_id": "progapp1k",
+    "storage_bucket": "progapp1k.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493935168539:android:6934c8fba2c6fcdca7bcbe",
+        "android_client_info": {
+          "package_name": "com.st10252440.ice1app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9izv8HsV1G4GmRSOzWCkyCjPwBc_6x5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493935168539:android:de8677506179bffea7bcbe",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9izv8HsV1G4GmRSOzWCkyCjPwBc_6x5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
