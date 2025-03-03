@@ -2,6 +2,7 @@ package vcmsa.projects.firebaseproject
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -55,6 +56,8 @@ class RegisterActivity : AppCompatActivity() {
                 Toast.makeText(this, "Password and Confirm Password must Match", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
+            Log.d("email", "$email")
+            Log.d("password", "$password")
 
             auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this) {
                 task -> if (task.isSuccessful) {
@@ -62,6 +65,8 @@ class RegisterActivity : AppCompatActivity() {
                     finish()
                 }
                 else{
+                Log.d("email", "$email")
+                Log.d("password", "$password")
                     Toast.makeText(this, "Sorry, there was an error ${task.exception?.message}", Toast.LENGTH_LONG).show()
                 }
             }
